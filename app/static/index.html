@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>uwsgi-nginx-flask-python-sqlite-docker-example</title>
+
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+
+    <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/func.js"></script>
+</head>
+<body>
+<h1>
+     <img src="/static/img/tutorial-academy.png" alt="tutorial-academy.com" class="center">
+</h1>
+
+<table style="width:100%">
+<tr>
+    <th>Query box</th>
+    <th>Predefined queries</th>
+</tr>
+<tr>
+    <td>
+        <textarea id="queryArea" rows="10" cols="40" style="width:100%"></textarea><br>
+        <button id="run_query" class="block">Run query</button>
+    </td>
+    <td>
+        <button id="select_all_query" class="block">Select all</button>
+        <button id="insert_query" class="block">Insert</button>
+        <button id="update_query" class="block">Update</button>
+        <button id="delete_query" class="block">Delete</button>
+    </td>
+</tr>
+</table>
+<br>
+The <a href="https://tutorial-academy.com/uwsgi-nginx-flask-python-sqlite-docker-example">tutorial</a> can be found here.
+This code is available at <a href="https://github.com/maltesander/uwsgi-nginx-flask-python-sqlite-docker-example">GitHub</a>.
+<br><br>
+Copyright 2020 &copy; <a href="https://tutorial-academy.com/">tutorial-academy.com</a>
+
+<!-- The popup/modal -->
+<div id="myModal" class="modal">
+    <!-- Popup/modal content -->
+    <div id="modal_div" class="modal-content">
+        <span class="close">&times;</span>
+        <label for="modal_content">Results:</label>
+        <div class="textwrapper">
+            <textarea rows="20" id="modal_content"></textarea>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
