@@ -50,6 +50,6 @@ def run():
 if __name__ == "__main__":
     # Only for debugging while developing and running main.py (without docker):
     # -> choose a port higher than 1000 to avoid permission problems
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    #app.run(host="0.0.0.0", port=5000, debug=True)
     # Port 80 configuration to run via docker-compose up
-    #app.run(host="0.0.0.0", port=80, debug=True)
+    app.run(host="0.0.0.0", port=80, debug=True)
